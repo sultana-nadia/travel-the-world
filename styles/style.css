@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* nav-bar design */
+.title{
+    display: flex;
+    align-items: center;
+    margin-left: 130px;
+}
+.list-bar ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 130px;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+.list-bar ul li{
+    padding: 18px;
+}
+.logo-title{
+    font-size: 28px;
+    font-family: Mulish;
+}
+.home, .world{
+    color:  #FF5400;
+}
+/* background img part */
+.section1{
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    height: 400px;
+    width: 1000px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 36px;
+    font-family: Mulish;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+.back-img1 p{
+    font-size: 15px;
+    padding-top: 18px;
+    width: 500px;
+    text-align: center;
+    padding-left: 250px;
+    font-weight: 400;
+}
+.explore{
+    font-size: 37px;
+    padding-top: 70px;
+    padding-left: 320px;
+}
+.frame{
+    background: rgba(255, 255, 255, 0.30);
+    height: 60px;
+    width: 525px;
+    border-radius: 8px;
+    border: 0;
+    margin-left: 240px;
+    margin-top: 34px;
+}
+.inpuut{
+    width: 100px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    border: 0;
+    border-radius: 4px;
+    padding-left: 5px;
+    gap: 30px;
+    margin-left: 8px;
+}
+.frame-style{
+    padding-top:15px;
+    padding-left: 32px;
+}
+.btn1{
+    background-color: #FF5400;
+    color: white;
+    width: 100px;
+    border: 0;
+    border-radius: 4px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left: 8px;
+}
