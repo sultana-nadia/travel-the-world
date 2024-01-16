@@ -134,3 +134,93 @@
     margin-bottom: 20px;
     font-family: Mulish;
 }
+
+
+
+
+/* media query starts here */
+@media only screen and (max-width:600px){
+      .logo{
+        margin-left: 5px;
+      }
+      .logo-title{
+        text-align: center;
+      }
+      .list-bar{
+        display: none;
+      }
+      .explore{
+        font-size: 25px;
+        padding-top: 50px;
+        padding-left: 50px;
+        padding: 0 auto;
+        text-align: center;
+        width: 100px;
+      }
+      .back-img1 p{
+        width: 200px;
+        padding-left: 7px;
+      }
+      .frame,.inpuut{
+        display: block;
+      }
+      .section1{
+        height: 500px;
+        width: 100%;
+        margin-left: 5px;
+        padding-right: 25px;
+        background-position: center;
+      }
+      .back-img1{
+        width: 300px;
+      }
+      .both{
+        flex-direction: column;
+      }
+      .mountain{
+        height: 310px;
+        width: 100%;
+        background-position: center;
+        margin-top: 10px;
+        margin-left: 5px;
+      }
+      .text-div{
+        margin-left: 5px;
+        width: 300px;
+      }
+      .text div p{
+        width: 300px;
+
+      }
+      .media{
+        flex-direction: column;
+        width: 100%;
+      }
+      .frame{
+        margin-left: 4px;
+        margin-right: 5px;
+        height: 200px;
+        width: 260px;
+      }
+      .frame-style{
+       padding: 0 auto; 
+       justify-content: center;
+      }
+      .title{
+        flex-direction: column;
+        margin-left: 5px;
+
+      }
+      .inpuut{
+        margin-bottom:7px;
+        margin-right: 20px;
+      }
+      .section1{
+        flex-direction: column;
+        width: 100%;
+      }
+      .back-img1{
+        text-align: center;
+        margin: 0;
+      }
+}
