@@ -86,7 +86,7 @@
     padding-top:15px;
     padding-left: 32px;
 }
-.btn1{
+.btn1,.btn2{
     background-color: #FF5400;
     color: white;
     width: 100px;
@@ -95,4 +95,42 @@
     padding-top: 7px;
     padding-bottom: 7px;
     margin-left: 8px;
+}
+/* main part starts */
+.text-div{
+    margin-left: 240px;
+    margin-top: 50px;
+    font-family: Mulish;
+}
+.text-div ul{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.text-div-title{
+    font-size: 27px;
+    padding-bottom: 20px;
+}
+.text-div p{
+    color: rgba(19, 19, 24, 0.70);
+    width: 500px;
+}
+.text-div ul > li{
+    color: rgba(19, 19, 24, 0.70);
+    width: 500px;
+    padding-bottom: 20px;
+}
+.both{
+    display: flex;
+}
+.mountain{
+    height: 410px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.btn2{
+    margin-left: -5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Mulish;
 }
